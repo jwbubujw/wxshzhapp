@@ -7,13 +7,13 @@
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#E54847",
-    "navigationBarTitleText": "地图",
+    "navigationBarBackgroundColor": "#1E90FF",
+    "navigationBarTitleText": "山洪灾害监测预警平台",
     "navigationBarTextStyle": "white"
   },
   "tabBar":{
-    "color":"#000",
-    "selectedColor":"#E54847",
+    "color":"#C0C0C0",
+    "selectedColor":"#1E90FF",
     "list":[{
         "pagePath": "pages/movie/movie",
         "text": "电影",

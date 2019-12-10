@@ -4,11 +4,6 @@
     "pages/map/map",
     "pages/profile/profile"
   ],
-  "permission": {
-    "scope.userLocation": {
-      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
-    }
-  },
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
@@ -21,19 +16,19 @@
     "selectedColor":"#1E90FF",
     "list":[{
         "pagePath": "pages/movie/movie",
-        "text": "电影",
-        "iconPath": "images/movie_unselect.png",
-        "selectedIconPath": "images/movie_select.png"
+        "text": "首页",
+        "iconPath": "images/main_unselect.png",
+        "selectedIconPath": "images/main.png"
       },{
       "pagePath":"pages/map/map",
       "text":"地图",
-      "iconPath":"images/movie_unselect.png",
-      "selectedIconPath":"images/movie_select.png"
+      "iconPath":"images/map_unselect.png",
+      "selectedIconPath":"images/map.png"
     },{
       "pagePath": "pages/profile/profile",
       "text": "我的",
       "iconPath": "images/user_unselect.png",
-      "selectedIconPath": "images/user_select.png"
+      "selectedIconPath": "images/user.png"
     }]
   },
   "sitemapLocation": "sitemap.json",

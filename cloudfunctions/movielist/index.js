@@ -5,7 +5,7 @@ cloud.init()
 var rp = require('request-promise');
 // 云函数入口函数
 exports.main = async (event, context) => {
-  return rp('http://106.13.62.242/geo.html')
+  return rp('http://106.13.62.242/station.html')
     .then(function (htmlString) {
       return htmlString;
     })
